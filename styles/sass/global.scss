@@ -31,7 +31,7 @@ body {
     &--features {
         background-color: $blue;
         color: $darkwhite;
-        margin: $standardpadding + 10px 0px;
+        margin: $biggerpadding 0px;
     }
 }
 
@@ -39,4 +39,8 @@ body {
     font-weight: 300;
     text-align: center;
     font-size: $bigger;
+
+    &--reviews {
+        margin-bottom: $biggerpadding;
+    }
 }

@@ -146,4 +146,53 @@
   margin: 0 auto;
   width: 100%;
 }
+
+.reviews {
+  background: url(../../../images/banner/testmonial.png);
+  background-size: cover;
+  background-position: 50% 50%;
+  color: #f2f4f4;
+  padding: 20px;
+  position: relative;
+  z-index: 1;
+}
+
+.reviews::before {
+  background-color: rgba(8, 133, 246, 0.75);
+  content: '';
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: -1;
+}
+
+.reviews__article {
+  padding: 50px 0;
+}
+
+.reviews__paragraph {
+  font-weight: 300;
+  font-size: 16px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.reviews__footer {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.reviews__footer i {
+  display: inline;
+  font-size: 14px;
+  color: gold;
+}
+
+.footer__paragraph {
+  display: inline;
+  font-size: 14px;
+  text-transform: uppercase;
+}
 /*# sourceMappingURL=mobile.css.map */

@@ -38,4 +38,8 @@ body {
   text-align: center;
   font-size: 22px;
 }
+
+.header__title--reviews {
+  margin-bottom: 30px;
+}
 /*# sourceMappingURL=global.css.map */

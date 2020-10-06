@@ -1,0 +1,48 @@
+.reviews {
+    background: url(../../../images/banner/testmonial.png), ;
+    background-size: cover;
+    background-position: 50% 50%;
+    color: $darkwhite;
+    padding: $standardpadding;
+    position: relative;
+    z-index: 1;
+
+    &::before {
+        background-color: rgba(8, 133, 246, .75);
+        content: '';
+        height: 100%;
+        left: 0;
+        position: absolute;
+        top: 0;
+        width: 100%;
+        z-index: -1;
+    }
+
+    &__article {
+        padding: $bigpadding 0;
+    }
+
+    &__paragraph {
+        font-weight: 300;
+        font-size: $big;
+        padding-bottom: $standardpadding;
+        text-align: center;
+    }
+
+    &__footer {
+        margin: 0 auto;
+        text-align: center;
+
+        i {
+            display: inline;
+            font-size: $standard;
+            color: $gold;
+        }
+    }
+}
+
+.footer__paragraph {
+    display: inline;
+    font-size: $standard;
+    text-transform: uppercase;
+}
