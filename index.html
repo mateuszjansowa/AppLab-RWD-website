@@ -192,7 +192,8 @@
 
             <header class="pricing__header">
                 <h3 class="header__title">Unlock full Power</h3>
-                <p class="header__paragraph">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et,
+                <p class="pricing__paragraph">Lorem ipsum dolor sit amet consectetur,
+                    adipisicing elit. Et,
                     exercitationem!</p>
             </header>
 
@@ -201,9 +202,9 @@
                 <ul class="pricing__list">
                     <li class="pricing__item">
 
-                        <header class="item__header">
+                        <header class="item__header item__header--blue">
                             <h4 class="item__title">basic</h4>
-                            <p class="item__price">$06</p>
+                            <p class="item__price item__price--blue">$06</p>
                         </header>
 
                         <ul class="item__list">
@@ -213,13 +214,13 @@
                             <li class="item__item">100GB cloud storage</li>
                         </ul>
 
-                        <button class="button button--pricing">get now</button>
+                        <button class="button button__pricing button__pricing--blue">get now</button>
                     </li>
                     <li class="pricing__item">
 
-                        <header class="item__header">
+                        <header class="item__header item__header--orange">
                             <h4 class="item__title">team</h4>
-                            <p class="item__price">$06</p>
+                            <p class="item__price item__price--orange">$06</p>
                         </header>
 
                         <ul class="item__list">
@@ -229,13 +230,13 @@
                             <li class="item__item">100GB cloud storage</li>
                             <li class="item__item">unlimited users limit</li>
                         </ul>
-                        <button class="button button--pricing">get now</button>
+                        <button class="button button__pricing button__pricing--orange">get now</button>
                     </li>
                     <li class="pricing__item">
 
-                        <header class="item__header">
-                            <h4 class="item__title">basic</h4>
-                            <p class="item__price">$06</p>
+                        <header class="item__header item__header--green">
+                            <h4 class="item__title">business</h4>
+                            <p class="item__price item__price--green">$06</p>
                         </header>
 
                         <ul class="item__list">
@@ -244,7 +245,7 @@
                             <li class="item__item">webmail support</li>
                             <li class="item__item">100GB cloud storage</li>
                         </ul>
-                        <button class="button button--pricing">get now</button>
+                        <button class="button button__pricing button__pricing--green">get now</button>
                     </li>
                 </ul>
 
@@ -262,8 +263,15 @@
             </header>
 
             <div class="download__icons">
-                <img class="download__image" src="./images/app.svg" alt="get it from appstore">
-                <img class="download__image" src="./images/play.svg" alt="get it from google play">
+
+                <a href="#">
+                    <img class="download__image" src="./images/app.svg" alt="get it from appstore">
+                </a>
+
+                <a href="#">
+                    <img class="download__image" src="./images/play.svg" alt="get it from google play">
+                </a>
+
             </div>
 
         </aside>
@@ -275,13 +283,16 @@
                         quasi.
                     </p>
                     <div class="detailed__icon-container">
-                        <i class="fab fa-facebook-f detailed__icon"></i>
+                        <a href="#" class="detailed__link"> <i class="fab fa-facebook-f detailed__icon"></i>
+                        </a>
                     </div>
                     <div class="detailed__icon-container">
-                        <i class="fab fa-twitter detailed__icon"></i>
+                        <a href="#" class="detailed__link"> <i class="fab fa-twitter detailed__icon"></i>
+                        </a>
                     </div>
                     <div class="detailed__icon-container">
-                        <i class="fab fa-instagram detailed__icon"></i>
+                        <a href="#" class="detailed__link"> <i class="fab fa-instagram detailed__icon"></i>
+                        </a>
                     </div>
             </header>
 

@@ -33,6 +33,24 @@ body {
   margin: 30px 0px;
 }
 
+.button__pricing {
+  margin: 0 auto 50px;
+  background-color: transparent;
+  border: 2px solid;
+}
+
+.button__pricing--blue {
+  border-color: rgba(8, 133, 246, 0.6);
+}
+
+.button__pricing--orange {
+  border-color: rgba(253, 145, 94, 0.6);
+}
+
+.button__pricing--green {
+  border-color: rgba(55, 239, 141, 0.6);
+}
+
 .header__title {
   font-weight: 300;
   text-align: center;
@@ -41,5 +59,10 @@ body {
 
 .header__title--reviews {
   margin-bottom: 30px;
+}
+
+.header__title--download {
+  color: #f2f4f4;
+  padding-bottom: 20px;
 }
 /*# sourceMappingURL=global.css.map */

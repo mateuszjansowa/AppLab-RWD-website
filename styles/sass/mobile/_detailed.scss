@@ -1,0 +1,34 @@
+.detailed {
+    background-color: $black;
+    color: $darkwhite;
+    padding: $biggerpadding $standardpadding;
+
+    &__title {
+        padding-bottom: $standardpadding;
+    }
+
+    &__caption {
+        font-size: $small;
+        font-weight: 200;
+        padding-bottom: $standardpadding;
+    }
+
+    &__icon-container {
+        background-color: $gray;
+        border-radius: 50%;
+        display: inline-block;
+        height: 30px;
+        margin-bottom: $standardpadding;
+        margin-right: $smallpadding;
+        text-align: center;
+        width: 30px;
+    }
+
+    &__link {
+        color: $darkwhite;
+    }
+
+    &__icon {
+        vertical-align: -3px;
+    }
+}

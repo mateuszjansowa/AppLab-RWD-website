@@ -33,6 +33,24 @@ body {
         color: $darkwhite;
         margin: $biggerpadding 0px;
     }
+
+    &__pricing {
+        margin: 0 auto $bigpadding;
+        background-color: transparent;
+        border: 2px solid;
+
+        &--blue {
+            border-color: $darkblue;
+        }
+
+        &--orange {
+            border-color: $darkorange;
+        }
+
+        &--green {
+            border-color: $darkgreen;
+        }
+    }
 }
 
 .header__title {
@@ -42,5 +60,10 @@ body {
 
     &--reviews {
         margin-bottom: $biggerpadding;
+    }
+
+    &--download {
+        color: $darkwhite;
+        padding-bottom: $standardpadding;
     }
 }
