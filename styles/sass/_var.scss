@@ -4,5 +4,26 @@ sans-serif;
 //200,300,400,700
 
 //Colors
-$black: #2C2C2C;
-$darkwhite: #F2F4F4;
+$black: rgb(44, 44, 44);
+$blue: rgb(8, 133, 246);
+$darkblue: rgba(8, 133, 246, .6);
+$darkwhite: rgb(242, 244, 244);
+$greenish: rgb(55, 235, 237);
+$green: rgb(55, 239, 141);
+$darkgreen: rgba(55, 239, 141, .6);
+$orange: rgb(253, 145, 94);
+$darkorange: rgba(253, 145, 94, .6);
+
+
+//Paddings
+$smallpadding: 10px;
+$standardpadding: 20px;
+$bigpadding: 50px;
+
+//Sizes
+$smallest: 10px;
+$small: 12px;
+$standard: 14px;
+$big: 16px;
+$bigger: 22px;
+$biggest: 28px;

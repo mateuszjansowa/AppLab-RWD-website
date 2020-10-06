@@ -1,0 +1,35 @@
+.hero {
+    background-image: url(../../../images/banner/banner.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: $standardpadding;
+
+    &__header {
+        padding: $standardpadding;
+        color: $darkwhite;
+    }
+
+    &__title {
+        font-weight: 300;
+        text-transform: capitalize;
+        padding-bottom: 10px;
+    }
+
+    &__paragraph {
+        font-size: $small;
+    }
+
+    &__image {
+        height: auto;
+        margin: 0 auto;
+        padding-top: $standardpadding;
+        width: 80vw;
+    }
+
+    &__phone-img {
+        display: block;
+        margin: 0 auto;
+        max-width: 360px;
+        width: 100%;
+    }
+}

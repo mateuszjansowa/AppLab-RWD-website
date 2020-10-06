@@ -1,5 +1,5 @@
 .header {
-  background-color: #2C2C2C;
+  background-color: #2c2c2c;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -21,7 +21,7 @@
 }
 
 .header__hamburger {
-  background-color: #F2F4F4;
+  background-color: #f2f4f4;
   cursor: pointer;
   height: 3px;
   position: relative;
@@ -30,7 +30,7 @@
 
 .header__hamburger::after {
   content: '';
-  background-color: #F2F4F4;
+  background-color: #f2f4f4;
   height: 3px;
   position: absolute;
   transform: translateY(-10px);
@@ -39,7 +39,7 @@
 
 .header__hamburger::before {
   content: '';
-  background-color: #F2F4F4;
+  background-color: #f2f4f4;
   height: 3px;
   position: absolute;
   transform: translateY(10px);
@@ -48,5 +48,102 @@
 
 .button--header {
   display: none;
+}
+
+.hero {
+  background-image: url(../../../images/banner/banner.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-bottom: 20px;
+}
+
+.hero__header {
+  padding: 20px;
+  color: #f2f4f4;
+}
+
+.hero__title {
+  font-weight: 300;
+  text-transform: capitalize;
+  padding-bottom: 10px;
+}
+
+.hero__paragraph {
+  font-size: 12px;
+}
+
+.hero__image {
+  height: auto;
+  margin: 0 auto;
+  padding-top: 20px;
+  width: 80vw;
+}
+
+.hero__phone-img {
+  display: block;
+  margin: 0 auto;
+  max-width: 360px;
+  width: 100%;
+}
+
+.app-items__list {
+  text-align: center;
+}
+
+.app-items__item {
+  padding: 20px 0;
+}
+
+.app-items__img-container {
+  border-radius: 5px;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  height: 100px;
+  margin: 0 auto;
+  width: 100px;
+}
+
+.app-items__img-container--blue {
+  background: linear-gradient(45deg, #0885f6 5%, rgba(8, 133, 246, 0.6));
+}
+
+.app-items__img-container--orange {
+  background: linear-gradient(225deg, #fd915e 15%, rgba(253, 145, 94, 0.6));
+}
+
+.app-items__img-container--green {
+  background: linear-gradient(0deg, #37ef8d 15%, rgba(55, 239, 141, 0.6));
+}
+
+.app-items__caption {
+  font-size: 16px;
+  font-weight: 300;
+  margin: 0 auto;
+  padding-top: 10px;
+  width: 50%;
+}
+
+.features {
+  padding: 50px 10px;
+}
+
+.features__article {
+  padding: 20px 0;
+}
+
+.features__paragraph {
+  font-size: 14px;
+  font-weight: 200;
+}
+
+.features__image-container {
+  width: 100%;
+}
+
+.features__image {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
 }
 /*# sourceMappingURL=mobile.css.map */

@@ -1,0 +1,22 @@
+.features {
+    padding: $bigpadding $smallpadding;
+
+    &__article {
+        padding: $standardpadding 0;
+    }
+
+    &__paragraph {
+        font-size: $standard;
+        font-weight: 200;
+    }
+
+    &__image-container {
+        width: 100%;
+    }
+
+    &__image {
+        display: block;
+        margin: 0 auto;
+        width: 100%;
+    }
+}
