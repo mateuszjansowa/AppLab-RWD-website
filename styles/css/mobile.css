@@ -1,0 +1,52 @@
+.header {
+  background-color: #2C2C2C;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.header__logo {
+  height: auto;
+  vertical-align: -5px;
+  width: 70px;
+}
+
+.header__input {
+  display: none;
+}
+
+.header__menu {
+  display: none;
+}
+
+.header__hamburger {
+  background-color: #F2F4F4;
+  cursor: pointer;
+  height: 3px;
+  position: relative;
+  width: 30px;
+}
+
+.header__hamburger::after {
+  content: '';
+  background-color: #F2F4F4;
+  height: 3px;
+  position: absolute;
+  transform: translateY(-10px);
+  width: 30px;
+}
+
+.header__hamburger::before {
+  content: '';
+  background-color: #F2F4F4;
+  height: 3px;
+  position: absolute;
+  transform: translateY(10px);
+  width: 30px;
+}
+
+.button--header {
+  display: none;
+}
+/*# sourceMappingURL=mobile.css.map */

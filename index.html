@@ -11,7 +11,12 @@
     <meta name="keywords" content="team web design html css applab productivity workflow rwd mobile tablet desktop">
 
     <link rel="icon" href="./images/favicon.png" type="images/png">
-    <link rel="stylesheet" href="./styles/css/styles.css">
+
+    <link rel="stylesheet" href="./styles/css/global.css">
+    <link rel="stylesheet" href="./styles/css/mobile.css">
+    <link rel="stylesheet" media="(min-width:761px)" href="./styles/css/tablet.css">
+    <link rel="stylesheet" media="(min-width:1281px)" href="./styles/css/desktop.css">
+
     <script src="https://kit.fontawesome.com/8b9b799f61.js" crossorigin="anonymous"></script>
     <title>AppLab | Increase your productivity</title>
 
@@ -21,15 +26,15 @@
 
     <header class="header">
 
-        <div class="header__logo">
-            <img src="./images/logo.png" alt="applab logo">
+        <div class="header__logo-container">
+            <img class="header__logo" src="./images/logo.png" alt="applab logo">
         </div>
 
         <div class="header__menu-container">
             <label for="menu-switch">
                 <div class="header__hamburger"></div>
             </label>
-            <input type="checkbox" id="menu-switch">
+            <input type="checkbox" id="menu-switch" class="header__input">
             <nav class="header__menu">
                 <ul class="menu__list">
                     <li class="menu__item">
@@ -76,7 +81,7 @@
             </nav>
         </div>
 
-        <button class="button button--header"></button>
+        <button class="button button--header">download</button>
     </header>
 
     <main>

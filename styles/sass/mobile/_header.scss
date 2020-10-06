@@ -1,0 +1,53 @@
+.header {
+    background-color: $black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+
+    &__logo {
+        height: auto;
+        vertical-align: -5px;
+        width: 70px;
+    }
+
+    &__input {
+        display: none;
+    }
+
+    &__menu {
+        display: none; //To change when creating burger menu
+    }
+
+    &__hamburger {
+        background-color: $darkwhite;
+        cursor: pointer;
+        height: 3px;
+        position: relative;
+        width: 30px;
+
+        &::after {
+            content: '';
+            background-color: $darkwhite;
+            height: 3px;
+            position: absolute;
+            transform: translateY(-10px);
+            width: 30px;
+        }
+
+        &::before {
+            content: '';
+            background-color: $darkwhite;
+            height: 3px;
+            position: absolute;
+            transform: translateY(10px);
+            width: 30px;
+        }
+    }
+}
+
+.button {
+    &--header {
+        display: none;
+    }
+}
