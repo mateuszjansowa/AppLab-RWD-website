@@ -309,9 +309,50 @@
 
 .detailed__link {
   color: #f2f4f4;
+  font-weight: 200;
+  font-size: 12px;
+  text-decoration: none;
+}
+
+.detailed__link--icon {
+  font-size: 16px;
 }
 
 .detailed__icon {
-  vertical-align: -3px;
+  vertical-align: -4px;
+}
+
+.detailed__title {
+  font-size: 22px;
+  font-weight: 200;
+}
+
+.detailed__title--bold {
+  font-weight: 700;
+}
+
+.detailed__item {
+  padding: 10px 0;
+}
+
+.detailed__services, .detailed__useful-links, .detailed__downloads {
+  padding-bottom: 20px;
+}
+
+.footer {
+  background-color: black;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.footer__paragraph {
+  color: #f2f4f4;
+  text-transform: inherit;
+}
+
+.footer__link {
+  text-decoration: none;
+  color: #f2f4f4;
+  font-weight: 700;
 }
 /*# sourceMappingURL=mobile.css.map */

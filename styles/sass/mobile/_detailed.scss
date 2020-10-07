@@ -26,9 +26,36 @@
 
     &__link {
         color: $darkwhite;
+        font-weight: 200;
+        font-size: $small;
+        text-decoration: none;
+
+        &--icon {
+            font-size: $big;
+        }
     }
 
     &__icon {
-        vertical-align: -3px;
+        vertical-align: -4px;
     }
+
+    &__title {
+        font-size: $bigger;
+        font-weight: 200;
+
+        &--bold {
+            font-weight: 700;
+        }
+    }
+
+    &__item {
+        padding: $smallpadding 0;
+    }
+
+    &__services,
+    &__useful-links,
+    &__downloads {
+        padding-bottom: $standardpadding;
+    }
+
 }

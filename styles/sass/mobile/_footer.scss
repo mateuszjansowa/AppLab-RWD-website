@@ -1,0 +1,17 @@
+.footer {
+    background-color: $blackreal;
+    padding: $standardpadding 0;
+    text-align: center;
+
+    &__paragraph {
+        color: $darkwhite;
+
+        text-transform: inherit;
+    }
+
+    &__link {
+        text-decoration: none;
+        color: $darkwhite;
+        font-weight: 700;
+    }
+}
