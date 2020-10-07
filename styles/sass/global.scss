@@ -15,9 +15,15 @@ body {
     font-family: $font;
 }
 
+.container {
+    margin: 0 auto;
+    max-width: 1400px;
+}
+
 .button {
     border: none;
     border-radius: 5px;
+    cursor: pointer;
     font-family: $font;
     padding: 10px 26px;
     text-transform: capitalize;

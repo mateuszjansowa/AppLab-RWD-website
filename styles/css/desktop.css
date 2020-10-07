@@ -1,0 +1,122 @@
+.header {
+  background: transparent;
+  justify-content: space-between;
+  padding: 20px 50px;
+}
+
+.header__hamburger {
+  display: none;
+}
+
+.header__menu {
+  display: block;
+  width: 600px;
+}
+
+.menu__list {
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+}
+
+.menu__item {
+  padding: 10px;
+}
+
+.menu__item--dropped {
+  padding: 10px;
+  padding-top: 0;
+}
+
+.menu__item--dropdown {
+  position: relative;
+}
+
+.menu__item--dropdown::after {
+  position: absolute;
+  content: '>';
+  color: #f2f4f4;
+  cursor: pointer;
+  top: 10px;
+  right: 15px;
+  transform: rotate(90deg);
+}
+
+.menu__item--dropdown:hover .dropdown__list {
+  display: block;
+}
+
+.menu__link {
+  color: #f2f4f4;
+  font-size: 14px;
+  font-weight: 300;
+  text-decoration: none;
+  text-transform: capitalize;
+  padding: 20px;
+}
+
+.menu__link--dropped {
+  padding: 0 0;
+}
+
+.dropdown__list {
+  display: none;
+  left: 20px;
+  position: absolute;
+  top: 100%;
+}
+
+.button--header {
+  background-color: #0885f6;
+  color: #f2f4f4;
+  display: block;
+}
+
+.hero {
+  background-image: none;
+  padding-top: 20px;
+}
+
+.hero__header {
+  align-self: end;
+}
+
+.hero__phone-img {
+  max-width: 420px;
+}
+
+.app-items {
+  padding: 120px 0;
+}
+
+.features {
+  padding: 0 0 120px 0;
+}
+
+.reviews {
+  padding: 120px 0;
+}
+
+.pricing {
+  padding: 120px 0;
+}
+
+.download {
+  padding: 120px 0;
+}
+
+.detailed {
+  align-items: flex-start;
+  display: flex;
+  justify-content: space-around;
+  padding: 120px 0;
+}
+
+.hero__background {
+  background-image: url(../../images/banner/banner.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 0;
+  padding-bottom: calc(9 / 16 * 100%);
+}
+/*# sourceMappingURL=desktop.css.map */

@@ -1,0 +1,12 @@
+.hero {
+    background-image: none;
+    padding-top: $standardpadding;
+
+    &__header {
+        align-self: end;
+    }
+
+    &__phone-img {
+        max-width: 420px;
+    }
+}

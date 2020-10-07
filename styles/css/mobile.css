@@ -81,6 +81,7 @@
 .hero__phone-img {
   display: block;
   margin: 0 auto;
+  width: 90vw;
   max-width: 360px;
 }
 
@@ -358,5 +359,9 @@
   text-decoration: none;
   color: #f2f4f4;
   font-weight: 700;
+}
+
+.hero__background {
+  background-image: none;
 }
 /*# sourceMappingURL=mobile.css.map */

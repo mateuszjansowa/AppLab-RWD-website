@@ -109,4 +109,8 @@
 .header__title--features {
   text-align: left;
 }
+
+.hero__background {
+  background-image: none;
+}
 /*# sourceMappingURL=tablet.css.map */

@@ -1,0 +1,17 @@
+@import '_var.scss';
+@import './desktop/_header.scss';
+@import './desktop/_hero.scss';
+@import './desktop/_app-items.scss';
+@import './desktop/_features.scss';
+@import './desktop/_reviews.scss';
+@import './desktop/_pricing.scss';
+@import './desktop/_download.scss';
+@import './desktop/_detailed.scss';
+
+.hero__background {
+    background-image: url(../../images/banner/banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 0;
+    padding-bottom: calc(9 / 16 * 100%);
+}
