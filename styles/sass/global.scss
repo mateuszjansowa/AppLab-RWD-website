@@ -25,7 +25,7 @@ body {
     &--hero {
         color: $darkwhite;
         background-color: $greenish;
-        margin: $standardpadding;
+        margin: $standardpadding 0;
     }
 
     &--features {
@@ -64,6 +64,10 @@ body {
 
     &--download {
         color: $darkwhite;
+        padding-bottom: $standardpadding;
+    }
+
+    &--features {
         padding-bottom: $standardpadding;
     }
 }

@@ -1,5 +1,5 @@
 .hero {
-    background-image: url(../../../images/banner/banner.png);
+    background-image: url(../../images/banner/banner.png);
     background-size: cover;
     background-repeat: no-repeat;
     padding-bottom: $standardpadding;
@@ -23,13 +23,11 @@
         height: auto;
         margin: 0 auto;
         padding-top: $standardpadding;
-        width: 80vw;
     }
 
     &__phone-img {
         display: block;
         margin: 0 auto;
         max-width: 360px;
-        width: 100%;
     }
 }

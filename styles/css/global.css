@@ -24,7 +24,7 @@ body {
 .button--hero {
   color: #f2f4f4;
   background-color: #37ebed;
-  margin: 20px;
+  margin: 20px 0;
 }
 
 .button--features {
@@ -63,6 +63,10 @@ body {
 
 .header__title--download {
   color: #f2f4f4;
+  padding-bottom: 20px;
+}
+
+.header__title--features {
   padding-bottom: 20px;
 }
 /*# sourceMappingURL=global.css.map */

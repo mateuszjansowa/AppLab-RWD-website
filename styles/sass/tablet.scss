@@ -1,0 +1,17 @@
+@import '_var.scss';
+@import './tablet/_hero.scss';
+@import './tablet/_app-items.scss';
+@import './tablet/_features.scss';
+@import './tablet/_reviews.scss';
+@import './tablet/_pricing.scss';
+@import './tablet/_download.scss';
+@import './tablet/_detailed.scss';
+
+
+.header__title {
+    font-size: $biggest;
+
+    &--features {
+        text-align: left;
+    }
+}

@@ -1,0 +1,30 @@
+.pricing {
+    padding: $hugepadding 0;
+
+    &__paragraph {
+        font-size: $big;
+    }
+
+    &__list {
+        display: flex;
+        justify-content: center;
+        padding: $bigpadding 0;
+    }
+
+    &__item {
+        display: flex;
+        width: 30%;
+
+        &--big {
+            transform: scale(1.1);
+            background-color: white;
+            z-index: 99;
+        }
+    }
+}
+
+.item {
+    &__list {
+        flex-grow: 1;
+    }
+}

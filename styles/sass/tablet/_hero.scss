@@ -1,0 +1,31 @@
+.hero {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 2fr 10fr 10fr;
+    grid-template-areas: '. .'
+        'header image'
+        '. . ';
+    justify-items: center;
+
+    &__header {
+        font-size: $bigger;
+        grid-area: header;
+        width: 90%;
+    }
+
+    &__paragraph {
+        font-size: $big;
+    }
+
+    &__image {
+        grid-area: image;
+        margin: 0;
+        position: relative;
+        width: 100%;
+    }
+
+    &__phone-img {
+        position: absolute;
+    }
+
+}

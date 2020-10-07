@@ -1,0 +1,8 @@
+.app-items {
+    &__list {
+        align-items: flex-start;
+        display: flex;
+        justify-content: center;
+        padding-top: $standardpadding;
+    }
+}

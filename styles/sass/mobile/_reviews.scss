@@ -1,5 +1,5 @@
 .reviews {
-    background: url(../../../images/banner/testmonial.png), ;
+    background: url(../../images/banner/testmonial.png), ;
     background-size: cover;
     background-position: 50% 50%;
     color: $darkwhite;
@@ -44,5 +44,8 @@
 .footer__paragraph {
     display: inline;
     font-size: $standard;
-    text-transform: uppercase;
+
+    &--uppercase {
+        text-transform: uppercase;
+    }
 }
