@@ -6,6 +6,7 @@
         'header image'
         '. . ';
     justify-items: center;
+    padding-bottom: $hugepadding;
 
     &__header {
         font-size: $bigger;

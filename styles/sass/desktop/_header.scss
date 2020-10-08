@@ -2,13 +2,19 @@
     background: transparent;
     justify-content: space-between;
     padding: $standardpadding $bigpadding;
+    overflow: visible;
 
     &__hamburger {
         display: none;
     }
 
     &__menu {
+        background: transparent;
+        border-radius: 0;
+        border-bottom: 0;
         display: block;
+        position: static;
+        transform: translateX(0%);
         width: 600px;
     }
 }
@@ -18,14 +24,27 @@
         align-items: center;
         display: flex;
         justify-content: space-around;
+
     }
 
     &__item {
         padding: $smallpadding;
 
         &--dropped {
+            font-size: $standard;
             padding: $smallpadding;
             padding-top: 0;
+            position: relative;
+            text-align: center;
+
+            &::before {
+                position: absolute;
+                content: '>';
+                color: $darkwhite;
+                cursor: pointer;
+                top: 0;
+                left: -2px;
+            }
         }
 
         &--dropdown {
@@ -56,16 +75,29 @@
         text-decoration: none;
         text-transform: capitalize;
         padding: $standardpadding;
+        transition: .2s linear;
+
+        &:hover {
+            font-weight: 700;
+            letter-spacing: 2px;
+        }
 
         &--dropped {
             padding: 0 0;
+
+            &:hover {
+                font-weight: 700;
+                letter-spacing: 0;
+            }
         }
+
+
     }
 }
 
 .dropdown__list {
     display: none;
-    left: 20px;
+    left: 15px;
     position: absolute;
     top: 100%;
 }
@@ -73,7 +105,14 @@
 .button {
     &--header {
         background-color: $blue;
+        border: 2px solid $blue;
         color: $darkwhite;
         display: block;
+        transition: .3s linear;
+
+        &:hover {
+            background-color: $darkwhite;
+            color: $blue;
+        }
     }
 }

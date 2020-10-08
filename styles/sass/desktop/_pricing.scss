@@ -1,3 +1,28 @@
 .pricing {
     padding: $desktoppadding 0;
 }
+
+.button__pricing {
+    transition: .3s linear;
+
+    &--blue {
+        &:hover {
+            background-color: $lightblue;
+            color: $darkwhite;
+        }
+    }
+
+    &--orange {
+        &:hover {
+            background-color: $darkorange;
+            color: $darkwhite;
+        }
+    }
+
+    &--green {
+        &:hover {
+            background-color: $darkgreen;
+            color: $darkwhite;
+        }
+    }
+}

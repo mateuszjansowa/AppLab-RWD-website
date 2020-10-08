@@ -7,6 +7,19 @@
     }
 
     &__phone-img {
-        max-width: 420px;
+        height: auto;
+        max-width: 500px;
+    }
+}
+
+.button {
+    &--hero {
+        border: 2px solid $greenish;
+        transition: .3s linear;
+
+        &:hover {
+            background-color: $darkwhite;
+            color: $greenish;
+        }
     }
 }

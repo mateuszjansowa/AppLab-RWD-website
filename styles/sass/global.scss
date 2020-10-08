@@ -13,6 +13,7 @@ ul {
 
 body {
     font-family: $font;
+    width: 100%;
 }
 
 .container {
@@ -56,6 +57,11 @@ body {
         &--green {
             border-color: $darkgreen;
         }
+    }
+
+    &__link {
+        color: inherit;
+        text-decoration: none;
     }
 }
 

@@ -4,6 +4,7 @@
   grid-template-rows: 2fr 10fr 10fr;
   grid-template-areas: '. .' 'header image' '. . ';
   justify-items: center;
+  padding-bottom: 70px;
 }
 
 .hero__header {

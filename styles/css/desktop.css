@@ -2,6 +2,7 @@
   background: transparent;
   justify-content: space-between;
   padding: 20px 50px;
+  overflow: visible;
 }
 
 .header__hamburger {
@@ -9,7 +10,12 @@
 }
 
 .header__menu {
+  background: transparent;
+  border-radius: 0;
+  border-bottom: 0;
   display: block;
+  position: static;
+  transform: translateX(0%);
   width: 600px;
 }
 
@@ -24,8 +30,20 @@
 }
 
 .menu__item--dropped {
+  font-size: 14px;
   padding: 10px;
   padding-top: 0;
+  position: relative;
+  text-align: center;
+}
+
+.menu__item--dropped::before {
+  position: absolute;
+  content: '>';
+  color: #f2f4f4;
+  cursor: pointer;
+  top: 0;
+  left: -2px;
 }
 
 .menu__item--dropdown {
@@ -53,23 +71,41 @@
   text-decoration: none;
   text-transform: capitalize;
   padding: 20px;
+  transition: .2s linear;
+}
+
+.menu__link:hover {
+  font-weight: 700;
+  letter-spacing: 2px;
 }
 
 .menu__link--dropped {
   padding: 0 0;
 }
 
+.menu__link--dropped:hover {
+  font-weight: 700;
+  letter-spacing: 0;
+}
+
 .dropdown__list {
   display: none;
-  left: 20px;
+  left: 15px;
   position: absolute;
   top: 100%;
 }
 
 .button--header {
   background-color: #0885f6;
+  border: 2px solid #0885f6;
   color: #f2f4f4;
   display: block;
+  transition: .3s linear;
+}
+
+.button--header:hover {
+  background-color: #f2f4f4;
+  color: #0885f6;
 }
 
 .hero {
@@ -82,15 +118,44 @@
 }
 
 .hero__phone-img {
-  max-width: 420px;
+  height: auto;
+  max-width: 500px;
+}
+
+.button--hero {
+  border: 2px solid #37ebed;
+  transition: .3s linear;
+}
+
+.button--hero:hover {
+  background-color: #f2f4f4;
+  color: #37ebed;
 }
 
 .app-items {
   padding: 120px 0;
 }
 
+.app-items__img-container {
+  transition: .3s linear;
+}
+
+.app-items__img-container:hover {
+  transform: scale(1.2);
+}
+
 .features {
   padding: 0 0 120px 0;
+}
+
+.button--features {
+  border: 2px solid #0885f6;
+  transition: .3s linear;
+}
+
+.button--features:hover {
+  background-color: #f2f4f4;
+  color: #0885f6;
 }
 
 .reviews {
@@ -99,6 +164,25 @@
 
 .pricing {
   padding: 120px 0;
+}
+
+.button__pricing {
+  transition: .3s linear;
+}
+
+.button__pricing--blue:hover {
+  background-color: #6ab6fc;
+  color: #f2f4f4;
+}
+
+.button__pricing--orange:hover {
+  background-color: rgba(253, 145, 94, 0.6);
+  color: #f2f4f4;
+}
+
+.button__pricing--green:hover {
+  background-color: rgba(55, 239, 141, 0.6);
+  color: #f2f4f4;
 }
 
 .download {
@@ -117,6 +201,6 @@
   background-repeat: no-repeat;
   background-size: cover;
   height: 0;
-  padding-bottom: calc(9 / 16 * 100%);
+  padding-bottom: calc(3 / 4 * 100%);
 }
 /*# sourceMappingURL=desktop.css.map */
