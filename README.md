@@ -1,5 +1,7 @@
 # Thanks for viewing my Project ✨
 
+## :star: Live Deployment: https://mateuszjansowa.github.io/AppLab-RWD-website/
+
 ## Main goal of my work was to:
 - code **Responsive Web Design (RWD)** site 📱
 - do it in a way that it **looks decent on mobiles, tablets and desktops** 🖥️
