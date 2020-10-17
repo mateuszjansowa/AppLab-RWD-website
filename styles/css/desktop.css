@@ -118,8 +118,8 @@
 }
 
 .hero__phone-img {
-  height: auto;
-  max-width: 500px;
+  width: 27vw;
+  max-width: 550px;
 }
 
 .button--hero {
@@ -166,21 +166,21 @@
   padding: 120px 0;
 }
 
-.button__pricing {
+.button--pricing {
   transition: .3s linear;
 }
 
-.button__pricing--blue:hover {
+.button--blue:hover {
   background-color: #6ab6fc;
   color: #f2f4f4;
 }
 
-.button__pricing--orange:hover {
+.button--orange:hover {
   background-color: rgba(253, 145, 94, 0.6);
   color: #f2f4f4;
 }
 
-.button__pricing--green:hover {
+.button--green:hover {
   background-color: rgba(55, 239, 141, 0.6);
   color: #f2f4f4;
 }
@@ -201,6 +201,6 @@
   background-repeat: no-repeat;
   background-size: cover;
   height: 0;
-  padding-bottom: calc(3 / 4 * 100%);
+  padding-bottom: calc(9 / 16 * 100%);
 }
 /*# sourceMappingURL=desktop.css.map */

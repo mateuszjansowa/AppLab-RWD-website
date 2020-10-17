@@ -2,8 +2,10 @@
     padding: $desktoppadding 0;
 }
 
-.button__pricing {
-    transition: .3s linear;
+.button {
+    &--pricing {
+        transition: .3s linear;
+    }
 
     &--blue {
         &:hover {

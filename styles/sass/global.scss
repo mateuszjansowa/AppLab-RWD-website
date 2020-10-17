@@ -41,22 +41,23 @@ body {
         margin: $biggerpadding 0px;
     }
 
-    &__pricing {
+    &--pricing {
         margin: 0 auto $bigpadding;
         background-color: transparent;
         border: 2px solid;
 
-        &--blue {
-            border-color: $darkblue;
-        }
+    }
 
-        &--orange {
-            border-color: $darkorange;
-        }
+    &--blue {
+        border-color: $darkblue;
+    }
 
-        &--green {
-            border-color: $darkgreen;
-        }
+    &--orange {
+        border-color: $darkorange;
+    }
+
+    &--green {
+        border-color: $darkgreen;
     }
 
     &__link {
