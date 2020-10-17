@@ -1,61 +1,57 @@
-# HTML & CSS: Responsywność (RWD)
+# Thanks for viewing my Project ✨
 
-Najwyższy czas zakodować stronę, która ma przygotowane 3 widoki dla różnych punktów granicznych (ang. breakpoints):
-
-- mobile
-- tablet
-- desktop
-
-## Od czego zacząć?
-
-Przeczytaj dokładnie treść, którą zamieszczam poniżej. Następnie zapoznaj się ze zrzutami ekranu, które znajdziesz w katalogu `./assets` prezentujące poszczególne widoki.
-
-Zaznacz sobie na każdym widoku, które elementy to oddzielne sekcje strony. Zwróć uwagę jak się one zmianiają podczas przechodzenia z jednego widoku do drugiego. To ułatwi Ci budowanie układu.
-
-Zacznij od widoku na telefon. Możesz użyć dodatku [PerfectPixel](https://chrome.google.com/webstore/detail/perfectpixel-by-welldonec/dkaagdgjmgdmbnecmcefdhjekcoceebi?hl=pl) do przeglądarki Chrome, aby ułatwić sobie kodowanie. Pamiętaj, że nie warto odzwierciedlać widoku 1:1 co do piksela. Masz zaznajomić się z technikami RWD i przy okazji utrwalić wiedzę z HTML-a i CSS-a. Widok ma być zbliżony z zachowaniem koncepcji i estetyki z odpowiednim dopasowaniem do najważniejszych rozdzielczości. Nie ma być identyczny, a w zasadzie nie może być ponieważ na każdym urządzeniu z innym rozdzielczością będzie się prezetntował trochę inaczje. 
-
-Jeśli będziesz korzystać z PerfectPixel-a pamiętaj również o ustawieniu odpowiedniej skali dla warstwy oraz ustawieniu odpowiedniej szerokości dla okna przeglądarki.
-
-Możesz również skorzystać z dodatku [ColorZilla](https://chrome.google.com/webstore/detail/colorzilla/bhlhnicpbhignbdhedgjhgdocnmhomnp), który pozwoli Ci pobierać kolor ze wskazanego miejsca. Wystarczy wyświetlić obraz w przeglądarce Chrome i użyć wspomnianego rozszerzenia. 
-
-Kiedy skończysz kodować widok dla telefonu, zajmij się widokiem tabletowym. Pamiętaj, aby sprawdzać czy zmiany wprowadzone do widoku tabletowego nie spowodowały zmian w widoku mobilnym.
-
-Po skończeniu kodowania widoku dla tabletu zajmij się desktopem. Ponownie pamiętaj o częstym sprawdzaniu czy czegoś nie popsułeś w poprzednich wersjach. Im wcześniej zorientujesz się, że coś nie działa tym będzie Ci łatwiej to poprawić.
-
-## Zasoby
-
-### Fonty
-
-Font jaki jest wykorzystywany w projekcie to `Poppins`, który znajdziesz w [Google Font](https://fonts.google.com/specimen/Poppins).
-
-### Obrazy
-
-Wszystkie niezbędne obrazy, w tym kształty znajdziesz w katalogu `./images`. 
-
-### Ikony
-
-Ikony mediów społecznościowych znajdujące się w stopce umieść przy pomocy [Font Awesome](https://fontawesome.com/).
+## Main goal of my work was to:
+- code **Responsive Web Design (RWD)** site 📱
+- do it in a way that it **looks decent on mobiles, tablets and desktops** 🖥️
+- use **semantic HTML** (BEM) 📝
+- use **Sass** 🦋
+- make project **as readable as it is possible** (clean code, many directories, BEM, small sass files) 📖
 
 
-## Widoki
+## 🛠️ Languages and Tools used: 
 
-Nie podaję dokładnych punktów granicznych, abyś sam ocenił kiedy zrobić przejście.
 
-Poniżej zamieszczam tylko informacje dla jakich rozdzielczości był robiony przedstawiony zrzut ekranu.
+<img align="left" alt="HTML5" width="50px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png" />
 
-### mobile => 600px
+<img align="left" alt="CSS3" width="50px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png" />
 
-![](./assets/mobile.png)
+<img align="left" alt="Sass" width="50px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/sass/sass.png" />
 
-### tablet => 900px
+<img align="left" alt="Git" width="50px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/git/git.png" />
 
-![](./assets/tablet.png)
+<img align="left" alt="GitHub" width="50px" src="https://raw.githubusercontent.com/github/explore/78df643247d429f6cc873026c0622819ad797942/topics/github/github.png" />
 
-### desktop => 1200px
+<img align="left" alt="Terminal" width="50px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/terminal/terminal.png" />
 
-![](./assets/desktop.png)
+<img align="left" alt="Visual Studio Code" width="50px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/visual-studio-code/visual-studio-code.png" />
 
-# Prawa autorskie
+<br />
+<br />
+<br />
+
+### :blue_heart:  You can find me on:
+<br/>
+
+ Portfolio Website *(during construction*)* [<img align="left" alt="Portfolio" width="22px" src="https://raw.githubusercontent.com/iconic/open-iconic/master/svg/globe.svg" />][website]
+
+ LinkedIn Profile [<img align="left" alt="Mateusz Sowa LinkedIn" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" />][linkedin]
+ 
+ Maybe my Instagram? [<img align="left" alt="@msovva instagram" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/instagram.svg" />][instagram]
+
+ Or Facebook? [<img align="left" alt="Mateusz Sowa Facebook" width="22px" src="https://www.flaticon.com/svg/static/icons/svg/61/61045.svg" />][facebook]
+
+## My inspiration
+- **devementor.pl** tasks 
+
+
+# Copyright
 
 Wszelkie prawa autorskie oraz pokrewne do szablonu i elementów wchodzacych w jego skład należą do [colorlib.com](https://colorlib.com).
 Szablon i jego elementy mogą być wykorzystywane na zasadach zgodnych z [licencją](https://colorlib.com/wp/licence/).
+
+
+
+[website]: google.com
+[linkedin]: https://www.linkedin.com/in/mateusz-sowa-720a721a8/
+[instagram]: https://www.instagram.com/msovva/?hl=pl
+[facebook]: https://www.facebook.com/xMatisx2
